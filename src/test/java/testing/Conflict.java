@@ -2,9 +2,7 @@ package testing;
 
 import org.testng.annotations.Test;
 
-import genericLibraries.BaseClass;
-
-public class Conflict extends BaseClass{
+public class Conflict {
 @Test(groups = "smoke")
 	public  void conflict() {
 		System.out.println("--conflict to venkatesh code--");
