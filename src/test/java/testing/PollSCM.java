@@ -1,7 +1,10 @@
 package testing;
 
+import org.testng.annotations.Test;
+
 public class PollSCM {
-	public static void main(String[] args) {
+	@Test
+	public void pollSCM() {
 		System.out.println("changes");
 		System.out.println("Changes 2");
 		System.out.println("Poll Scm");

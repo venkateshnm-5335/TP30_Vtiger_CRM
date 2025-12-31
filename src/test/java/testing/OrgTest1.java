@@ -1,10 +1,13 @@
 package testing;
 
-public class OrgTest1 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("--OrgTest1--Anitha");
+import genericLibraries.BaseClass;
+
+public class OrgTest1 extends BaseClass{
+	@Test(groups = "smoke")
+	public void orgTest1() {
+		System.out.println("--OrgTest1--Anitha");
 	}
 
 }

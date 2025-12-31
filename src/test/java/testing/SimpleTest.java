@@ -1,10 +1,14 @@
 package testing;
 
-public class SimpleTest {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("Venkatesh-- Good morning");
+import genericLibraries.BaseClass;
+
+public class SimpleTest extends BaseClass{
+@Test (groups = "smoke")
+	public void simpleTest() {
+
+		System.out.print("Venkatesh-- Good morning");
 	}
 
 }
