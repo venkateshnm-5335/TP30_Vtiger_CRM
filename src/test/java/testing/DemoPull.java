@@ -2,7 +2,9 @@ package testing;
 
 import org.testng.annotations.Test;
 
-public class DemoPull {
+import genericLibraries.BaseClass;
+
+public class DemoPull extends BaseClass{
 	@Test
 	public void demoPull() {
 		System.out.println("Hello Arjun");

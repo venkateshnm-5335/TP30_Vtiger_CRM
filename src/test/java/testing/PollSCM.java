@@ -2,7 +2,9 @@ package testing;
 
 import org.testng.annotations.Test;
 
-public class PollSCM {
+import genericLibraries.BaseClass;
+
+public class PollSCM extends BaseClass{
 	@Test
 	public void pollSCM() {
 		System.out.println("changes");
