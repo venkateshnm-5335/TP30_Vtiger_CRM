@@ -2,9 +2,7 @@ package testing;
 
 import org.testng.annotations.Test;
 
-import genericLibraries.BaseClass;
-
-public class SimpleTest extends BaseClass{
+public class SimpleTest {
 @Test (groups = "smoke")
 	public void simpleTest() {
 
