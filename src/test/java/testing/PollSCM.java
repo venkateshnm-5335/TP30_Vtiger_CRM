@@ -5,6 +5,8 @@ public class PollSCM {
 		System.out.println("changes");
 		System.out.println("Changes 2");
 		System.out.println("Poll Scm");
+		System.out.println("Poll Scm2");
+
 	}
 
 }
